@@ -1,0 +1,26 @@
+{
+	"rules": {
+		// Functionality
+		"curly": [ true, "ignore-same-line" ],
+		"no-console": [ true, "log", "error" ],
+		"no-eval": true,
+		"no-var-keyword": true,
+		"switch-default": true,
+		"triple-equals": true,
+		// Maintainability
+		"eofline": true,
+		"indent": [ true, "tabs" ],
+		"trailing-comma": [
+			true,
+			{
+				"multiline": "never",
+				"singleline": "never"
+			}
+		],
+		// Style
+		"class-name": true,
+		"quotemark": [ true, "double", "avoid-escape" ],
+		"no-trailing-whitespace": true,
+		"semicolon": [ true, "always" ]
+	}
+}
