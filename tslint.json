@@ -1,7 +1,7 @@
 {
 	"rules": {
 		// Functionality
-		"curly": [ true, "ignore-same-line" ],
+		"curly": true,//[ true, "ignore-same-line" ],
 		"no-console": [ true, "log", "error" ],
 		"no-eval": true,
 		"no-var-keyword": true,
