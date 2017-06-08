@@ -36,6 +36,7 @@ Obj/
 !/src/dist/_placeholder.txt
 
 /yarn.lock
+/package-lock.json
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

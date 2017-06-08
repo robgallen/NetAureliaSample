@@ -16,7 +16,8 @@ module.exports = (env) => {
 		output: {
 			path: path.resolve(bundleOutputDir),
 			publicPath: '/dist/',
-			filename: '[name].js'
+			filename: '[name].js',
+			chunkFilename: '[name].js'
 		},
 		module: {
 			loaders: [
